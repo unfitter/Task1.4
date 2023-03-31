@@ -5,3 +5,5 @@ ln -s ~/test /tmp/soft_link
 cp -P ~/tmp/soft_link/test_123 /tmp/test_123
 ln /tmp/test_123 /tmp/hard_link
 df -ih hard_link | awk '{print $2 "\t" $3}'
+
+Подключил жесткий диск, сделал раздел сначала на 2 Gb, потом расширил до трех. Файл в этой файловой системе сохранился. На скриншотах все видно
